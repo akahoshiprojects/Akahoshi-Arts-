@@ -10,30 +10,21 @@
 
 html,
 body {
-    margin: 0;
-    min-height: 100%;
+    min-height: 100vh;
 
-    background-color: #020103;
-
-    overscroll-behavior: none;
-}
-
-body {
     font-family: Arial, sans-serif;
 
-    overflow-x: hidden;
-
     background:
-        radial-gradient(
-            ellipse at center,
-            #8b0000 0%,
-            #5a0018 35%,
-            #2a103d 70%,
-            #020103 100%
-        );
+    radial-gradient(
+        circle at center,
+        #850000 0%,
+        #3d0012 25%,
+        #180623 55%,
+        #060408 80%,
+        #000000 100%
+    );
 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
 }
 /* CONTENEDOR PRINCIPAL */
 
