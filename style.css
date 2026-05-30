@@ -11,13 +11,18 @@
 body {
     min-height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     font-family: Arial, sans-serif;
 
-    background: #111;
+    background:
+    radial-gradient(
+        circle at center,
+        #7a0b0b 0%,
+        #4d0820 35%,
+        #2a103d 70%,
+        #140a1f 100%
+    );
+
+    background-attachment: fixed;
 }
 
 /* CONTENEDOR PRINCIPAL */
