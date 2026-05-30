@@ -16,13 +16,14 @@ body {
     background:
     radial-gradient(
         circle at center,
-        #7a0b0b 0%,
-        #4d0820 35%,
-        #2a103d 70%,
-        #140a1f 100%
+        #850000 0%,
+        #3d0012 25%,
+        #180623 55%,
+        #060408 80%,
+        #000000 100%
     );
 
-    background-attachment: fixed;
+    background-attachment: fixed
 }
 
 /* CONTENEDOR PRINCIPAL */
