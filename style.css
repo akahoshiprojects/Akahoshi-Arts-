@@ -25,14 +25,15 @@ body {
 
     background:
         radial-gradient(
-            circle at 50% 20%,
+            ellipse at center,
             #8b0000 0%,
-            #4a0015 30%,
-            #1a0828 60%,
+            #5a0018 35%,
+            #2a103d 70%,
             #020103 100%
         );
 
     background-repeat: no-repeat;
+    background-size: cover;
 }
 /* CONTENEDOR PRINCIPAL */
 
