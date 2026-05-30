@@ -8,24 +8,32 @@
 
 /* BODY */
 
+html,
 body {
-    min-height: 100vh;
+    margin: 0;
+    min-height: 100%;
+    background-color: #020103;
+}
 
+body {
     font-family: Arial, sans-serif;
 
     background:
+        url("Assets/Background/background.png"),
         radial-gradient(
-            circle at 50% 30%,
-            rgba(139, 0, 0, 0.75) 0%,
-            rgba(75, 0, 20, 0.45) 30%,
-            rgba(0, 0, 0, 0) 70%
-        ),
-        url("Assets/Background/background.png");
+            circle at 50% 20%,
+            #8b0000 0%,
+            #4a0015 30%,
+            #1a0828 60%,
+            #020103 100%
+        );
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    /* IMPORTANTE:
+       NO uses background-attachment: fixed; */
 }
 
 /* CONTENEDOR PRINCIPAL */
