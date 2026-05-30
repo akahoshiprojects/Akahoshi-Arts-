@@ -120,7 +120,9 @@ body {
 
     max-width: 1400px;
 
-    margin: auto;
+    width: 100%;
+
+    margin: 0 auto;
 
     padding: 20px;
 }
@@ -128,29 +130,51 @@ body {
 .card-item {
 
     text-align: center;
+
+    width: 100%;
 }
 
 .card-item img {
 
     width: 100%;
 
+    max-width: 250px;
+
+    height: auto;
+
     border-radius: 10px;
+
+    display: block;
+
+    margin: 0 auto;
+
+    transition: transform 0.2s ease;
 }
 
-.card-item h3 {
+.card-item img:hover {
 
-    color: white;
+    transform: scale(1.03);
 
-    margin-top: 10px;
-
-    margin-bottom: 5px;
+    cursor: pointer;
 }
 
+/* INFO OCULTA */
+
+.card-item h3,
 .card-item p {
 
-    color: #c8c8c8;
+    display: none;
+}
 
-    margin: 0;
+/* TABLET */
+
+@media (max-width: 1024px) {
+
+    .gallery-grid {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 /* MOBILE */
