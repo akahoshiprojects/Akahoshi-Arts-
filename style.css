@@ -24,7 +24,6 @@ body {
     overflow-x: hidden;
 
     background:
-        url("Assets/Background/background.png"),
         radial-gradient(
             circle at 50% 20%,
             #8b0000 0%,
@@ -33,11 +32,8 @@ body {
             #020103 100%
         );
 
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
-
 /* CONTENEDOR PRINCIPAL */
 
 .home {
