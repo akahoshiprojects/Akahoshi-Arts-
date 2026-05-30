@@ -49,7 +49,7 @@ body {
 
     grid-template-columns: repeat(2, 1fr);
 
-    gap: 30px;
+    gap: 50px;
 }
 
 /* ENLACES */
@@ -69,7 +69,7 @@ body {
 /* ICONOS */
 
 .menu-button img {
-    width: 180px;
+    width: 280px;
     height: auto;
 
     display: block;
