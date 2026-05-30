@@ -14,16 +14,18 @@ body {
     font-family: Arial, sans-serif;
 
     background:
-    radial-gradient(
-        circle at center,
-        #850000 0%,
-        #3d0012 25%,
-        #180623 55%,
-        #060408 80%,
-        #000000 100%
-    );
+        radial-gradient(
+            circle at 50% 30%,
+            rgba(139, 0, 0, 0.75) 0%,
+            rgba(75, 0, 20, 0.45) 30%,
+            rgba(0, 0, 0, 0) 70%
+        ),
+        url("Assets/Background/background.png");
 
-    background-attachment: fixed
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* CONTENEDOR PRINCIPAL */
