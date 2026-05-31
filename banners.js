@@ -1,14 +1,23 @@
 const banners = [
 
     { image: "Banner01.png", series: "Isekai Tensei: Recruited to Another World" },
+    
 ];
 
 
-// 🔥 ORDEN: primero serie
+// 🔥 ORDEN ALFABÉTICO: primero serie, luego imagen
 banners.sort((a, b) => {
-    return a.series.localeCompare(b.series);
+
+    if (a.series !== b.series) {
+        return a.series.localeCompare(b.series);
+    }
+
+    return a.image.localeCompare(b.image);
+
 });
 
+
+// 📦 RENDER EN PÁGINA
 const gallery = document.querySelector(".banner-gallery");
 
 banners.forEach(banner => {
