@@ -198,3 +198,34 @@ body {
 
     margin: 0 auto;
 }
+
+/* BANNER PAGE */
+
+.banner-page {
+
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+}
+
+.banner-gallery {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+    padding: 20px;
+}
+
+.banner-item img {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 12px;
+
+    display: block;
+}
